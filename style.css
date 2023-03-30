@@ -1,0 +1,42 @@
+body{
+    color: antiquewhite;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(112,93,17,1) 63%, rgba(0,0,0,1) 100%); 
+    font-family:sans-serif;
+    margin:0px;
+  }
+
+  nav {
+    background:#ffcd00;
+    text-align:center;
+    padding:10px;
+  }
+  a {
+    color:rgb(0, 0, 0);
+    text-decoration:none
+  }
+  main {
+    margin: 10px
+  }
+  .current {
+    font-weight: bold;
+  }
+  .recent {
+    text-decoration: underline;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  input, button {
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  #thankyouMessage {
+      opacity: 0;
+      transition: all 0.5s;
+  }
